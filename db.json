@@ -191,7 +191,7 @@
       "challengeId": 1,
       "studentId": 3,
       "content": "API para gestión de estudiantes con Spring Boot",
-      "score": 85,
+      "score": 15,
       "imageUrl": "https://picsum.photos/seed/submission1/1600/800"
     },
     {
@@ -199,7 +199,7 @@
       "challengeId": 1,
       "studentId": 4,
       "content": "API REST con autenticación JWT",
-      "score": 90,
+      "score": 19,
       "imageUrl": "https://picsum.photos/seed/submission2/1600/800"
     },
     {
@@ -207,7 +207,7 @@
       "challengeId": 2,
       "studentId": 4,
       "content": "SPA Angular con Material Design",
-      "score": 88,
+      "score": 18,
       "imageUrl": "https://picsum.photos/seed/submission3/1600/800"
     },
     {
@@ -215,7 +215,7 @@
       "challengeId": 5,
       "studentId": 4,
       "content": "Modelo relacional para universidad",
-      "score": 88,
+      "score": 20,
       "imageUrl": "https://picsum.photos/seed/submission4/1600/800"
     },
     {
@@ -223,7 +223,7 @@
       "challengeId": 5,
       "studentId": 5,
       "content": "Diseño de BD con diagramas ER",
-      "score": 78,
+      "score": 8,
       "imageUrl": "https://picsum.photos/seed/submission5/1600/800"
     },
     {
@@ -231,7 +231,7 @@
       "challengeId": 8,
       "studentId": 3,
       "content": "Clasificador MNIST con TensorFlow",
-      "score": 72,
+      "score": 14,
       "imageUrl": "https://picsum.photos/seed/submission6/1600/800"
     },
     {
@@ -239,7 +239,7 @@
       "challengeId": 8,
       "studentId": 6,
       "content": "CNN para clasificación de flores (95% precisión)",
-      "score": 95,
+      "score": 20,
       "imageUrl": "https://picsum.photos/seed/submission7/1600/800"
     },
     {
@@ -247,7 +247,7 @@
       "challengeId": 9,
       "studentId": 5,
       "content": "Análisis de sentimientos en reseñas",
-      "score": 82,
+      "score": 12,
       "imageUrl": "https://picsum.photos/seed/submission8/1600/800"
     }
   ]
