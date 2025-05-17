@@ -1,0 +1,254 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "omar.luquillas@upc.edu.pe",
+      "firstName": "Omar",
+      "lastName": "Luquillas",
+      "role": "teacher",
+      "password": "prof123",
+      "profilesInGroups": [
+        {"groupId": 1, "score": 0},
+        {"groupId": 2, "score": 0}
+      ]
+    },
+    {
+      "id": 2,
+      "email": "maria.gonzales@upc.edu.pe",
+      "firstName": "Maria",
+      "lastName": "Gonzales",
+      "role": "teacher",
+      "password": "prof456",
+      "profilesInGroups": [
+        {"groupId": 3, "score": 0}
+      ]
+    },
+    {
+      "id": 3,
+      "email": "jose.flores@upc.edu.pe",
+      "firstName": "José",
+      "lastName": "Flores",
+      "role": "student",
+      "password": "student123",
+      "profilesInGroups": [
+        {"groupId": 1, "score": 85},
+        {"groupId": 3, "score": 72}
+      ]
+    },
+    {
+      "id": 4,
+      "email": "ana.alejo@upc.edu.pe",
+      "firstName": "Ana",
+      "lastName": "Alejo",
+      "role": "student",
+      "password": "student456",
+      "profilesInGroups": [
+        {"groupId": 1, "score": 90},
+        {"groupId": 2, "score": 88}
+      ]
+    },
+    {
+      "id": 5,
+      "email": "carlos.alvarez@upc.edu.pe",
+      "firstName": "Carlos",
+      "lastName": "Alvarez",
+      "role": "student",
+      "password": "student789",
+      "profilesInGroups": [
+        {"groupId": 2, "score": 78},
+        {"groupId": 3, "score": 82}
+      ]
+    },
+    {
+      "id": 6,
+      "email": "marco.oliva@upc.edu.pe",
+      "firstName": "Marco",
+      "lastName": "Oliva",
+      "role": "student",
+      "password": "student012",
+      "profilesInGroups": [
+        {"groupId": 3, "score": 95}
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Programación Avanzada",
+      "description": "Curso de programación avanzada con Angular y Spring Boot",
+      "imageUrl": "https://picsum.photos/seed/programacion/1600/800"
+    },
+    {
+      "id": 2,
+      "name": "Bases de Datos",
+      "description": "Fundamentos de diseño y administración de bases de datos",
+      "imageUrl": "https://picsum.photos/seed/basedatos/1600/800"
+    },
+    {
+      "id": 3,
+      "name": "Inteligencia Artificial",
+      "description": "Introducción a machine learning y redes neuronales",
+      "imageUrl": "https://picsum.photos/seed/inteligencia/1600/800"
+    }
+  ],
+  "groupJoinCodes": [
+    {"key": "DB2023", "groupId": 2},
+    {"key": "AI2023", "groupId": 3}
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "title": "API REST con Spring Boot",
+      "description": "Crear una API REST completa para gestión de estudiantes",
+      "groupId": 1,
+      "deadline": "2023-11-15T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/api/1600/800"
+    },
+    {
+      "id": 2,
+      "title": "Frontend con Angular",
+      "description": "Desarrollar una SPA con Angular que consuma la API REST",
+      "groupId": 1,
+      "deadline": "2023-11-25T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/angular/1600/800"
+    },
+    {
+      "id": 3,
+      "title": "Autenticación JWT",
+      "description": "Implementar autenticación segura con JWT en ambos lados",
+      "groupId": 1,
+      "deadline": "2023-12-05T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/jwt/1600/800"
+    },
+    {
+      "id": 4,
+      "title": "Despliegue en la Nube",
+      "description": "Desplegar la aplicación completa en AWS o Azure",
+      "groupId": 1,
+      "deadline": "2023-12-15T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/nube/1600/800"
+    },
+    {
+      "id": 5,
+      "title": "Diseño de Base de Datos",
+      "description": "Modelar una base de datos para sistema universitario",
+      "groupId": 2,
+      "deadline": "2023-11-20T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/diseñodb/1600/800"
+    },
+    {
+      "id": 6,
+      "title": "Consultas SQL Avanzadas",
+      "description": "Escribir consultas complejas con JOINs y subconsultas",
+      "groupId": 2,
+      "deadline": "2023-12-01T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/sql/1600/800"
+    },
+    {
+      "id": 7,
+      "title": "Optimización de Consultas",
+      "description": "Identificar y resolver cuellos de botella en consultas SQL",
+      "groupId": 2,
+      "deadline": "2023-12-10T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/optimizacion/1600/800"
+    },
+    {
+      "id": 8,
+      "title": "Clasificador de Imágenes",
+      "description": "Implementar un modelo CNN para clasificación de imágenes",
+      "groupId": 3,
+      "deadline": "2023-12-01T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/cnn/1600/800"
+    },
+    {
+      "id": 9,
+      "title": "Procesamiento de Lenguaje Natural",
+      "description": "Crear un modelo para análisis de sentimientos en textos",
+      "groupId": 3,
+      "deadline": "2023-12-10T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/nlp/1600/800"
+    },
+    {
+      "id": 10,
+      "title": "Algoritmos de Recomendación",
+      "description": "Desarrollar un sistema de recomendación basado en contenido",
+      "groupId": 3,
+      "deadline": "2023-12-20T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/recomendacion/1600/800"
+    },
+    {
+      "id": 11,
+      "title": "Redes Generativas Adversarias",
+      "description": "Implementar una GAN básica para generación de imágenes",
+      "groupId": 3,
+      "deadline": "2024-01-05T23:59:00Z",
+      "imageUrl": "https://picsum.photos/seed/gan/1600/800"
+    }
+  ],
+  "submissions": [
+    {
+      "id": 1,
+      "challengeId": 1,
+      "studentId": 3,
+      "content": "API para gestión de estudiantes con Spring Boot",
+      "score": 85,
+      "imageUrl": "https://picsum.photos/seed/submission1/1600/800"
+    },
+    {
+      "id": 2,
+      "challengeId": 1,
+      "studentId": 4,
+      "content": "API REST con autenticación JWT",
+      "score": 90,
+      "imageUrl": "https://picsum.photos/seed/submission2/1600/800"
+    },
+    {
+      "id": 3,
+      "challengeId": 2,
+      "studentId": 4,
+      "content": "SPA Angular con Material Design",
+      "score": 88,
+      "imageUrl": "https://picsum.photos/seed/submission3/1600/800"
+    },
+    {
+      "id": 4,
+      "challengeId": 5,
+      "studentId": 4,
+      "content": "Modelo relacional para universidad",
+      "score": 88,
+      "imageUrl": "https://picsum.photos/seed/submission4/1600/800"
+    },
+    {
+      "id": 5,
+      "challengeId": 5,
+      "studentId": 5,
+      "content": "Diseño de BD con diagramas ER",
+      "score": 78,
+      "imageUrl": "https://picsum.photos/seed/submission5/1600/800"
+    },
+    {
+      "id": 6,
+      "challengeId": 8,
+      "studentId": 3,
+      "content": "Clasificador MNIST con TensorFlow",
+      "score": 72,
+      "imageUrl": "https://picsum.photos/seed/submission6/1600/800"
+    },
+    {
+      "id": 7,
+      "challengeId": 8,
+      "studentId": 6,
+      "content": "CNN para clasificación de flores (95% precisión)",
+      "score": 95,
+      "imageUrl": "https://picsum.photos/seed/submission7/1600/800"
+    },
+    {
+      "id": 8,
+      "challengeId": 9,
+      "studentId": 5,
+      "content": "Análisis de sentimientos en reseñas",
+      "score": 82,
+      "imageUrl": "https://picsum.photos/seed/submission8/1600/800"
+    }
+  ]
+}
