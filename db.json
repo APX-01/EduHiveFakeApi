@@ -92,8 +92,8 @@
     }
   ],
   "groupJoinCodes": [
-    {"key": "DB2023", "groupId": 2},
-    {"key": "AI2023", "groupId": 3}
+    {"id": 1, "key": "DB2023", "groupId": 2},
+    {"id": 2, "key": "AI2023", "groupId": 3}
   ],
   "challenges": [
     {
